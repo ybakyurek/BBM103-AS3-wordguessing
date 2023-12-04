@@ -10,13 +10,14 @@ Make sure you have Python installed on your system. You can download Python from
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/ybakyurek/py3_wordguessing.git
+    git clone https://github.com/ybakyurek/BBM103-AS3-wordguessing.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd py3_wordguessing
+    cd BBM103-AS3-wordguessing
+
     ```
 
 ### Running the Game
@@ -25,7 +26,7 @@ Make sure you have Python installed on your system. You can download Python from
 2. Run the following command to start the game:
 
     ```bash
-    python word_guessing_game.py correct_words.txt letter_points.txt
+    python wordguessing.py correct_words.txt letter_points.txt
     ```
 
     Note: Replace `words.txt` and `letter_points.txt` with the actual names of your word list and letter points files.
